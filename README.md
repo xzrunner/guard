@@ -1,0 +1,3 @@
+# guard
+
+Assert and exception.

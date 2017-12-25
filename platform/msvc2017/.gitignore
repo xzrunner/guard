@@ -1,0 +1,4 @@
+guard/
+projects/*
+
+!projects/guard.vcxproj

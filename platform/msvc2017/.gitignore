@@ -2,3 +2,4 @@ guard/
 projects/*
 
 !projects/guard.vcxproj
+!projects/guard.vcxproj.filters

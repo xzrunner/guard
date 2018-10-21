@@ -3,7 +3,7 @@
 
 #include <logger.h>
 
-#if MT_PLATFORM_WINDOWS 
+#if MT_PLATFORM_WINDOWS
 
 inline void ThrowException()
 {

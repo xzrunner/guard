@@ -13,13 +13,13 @@ public:
 	Exception(const char* fmt, ...);
 	virtual ~Exception() throw() {}
 
-	virtual const char* what() const throw() { 
-		return m_message.c_str(); 
+	virtual const char* what() const throw() {
+		return m_message.c_str();
 	}
 
 private:
 	std::string m_message;
 
-}; // Exception 
+}; // Exception
 
 }

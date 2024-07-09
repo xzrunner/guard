@@ -1,5 +1,0 @@
-guard/
-projects/*
-
-!projects/*.vcxproj
-!projects/*.vcxproj.filters

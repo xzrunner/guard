@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.16)
 
 project(guard)
 
@@ -24,7 +24,6 @@ set(ALL_FILES
     ${Sources}
 )
 
-include_directories(${CMAKE_SOURCE_DIR}/include)
-include_directories(../logger)
+add_library(${PROJECT_NAME} STATIC ${ALL_FILES})
 
-add_library(guard STATIC ${ALL_FILES})
+target_include_directories(${PROJECT_NAME} PRIVATE include external/logger)
